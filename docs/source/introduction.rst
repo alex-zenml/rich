@@ -78,7 +78,7 @@ Rich may be installed in the REPL so that Python data structures are automatical
     >>> pretty.install() 
     >>> ["Rich and pretty", True]
 
-You can also use this feature to try out Rich *renderables*. Here's an example::
+With that installation complete, you can also try out Rich *renderables*. Here's an example::
 
     >>> from rich.panel import Panel
     >>> Panel.fit("[bold yellow]Hi, I'm a Panel", border_style="red")
